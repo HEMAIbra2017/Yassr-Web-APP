@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.container{
+  background-color: #1F1F32;
+/*  width: 1920px;*/
+  max-height: 100% ;
+  max-width: 100%
+}
+
+.text-center{
+color:#FFFFFF;
+padding-top:30px;
+font-size: 48px;
+font-weight: SemiBold;
+font-family: IBM Plex Sans;
+}
+
+.card{
+  background-color: #1F1F32;
+border: none;
+box-shadow: 1px 1px 1px 1px #1F1F32;
+cursor: pointer;
+}
+.card-body{
+  background-color: #1F1F32;
+border: none;
+box-shadow: 1px #1F1F32;
+}
+
+.card-text{
+color:#FFFFFF;
+font-size: 18px;
+font-weight: Regular;
+font-family: IBM Plex Sans;
+}
+
+
+/**************** start link ****************/
+a {  text-decoration:none; font-color:#B9B9B9}
+
+#Gamez{
+  width: 137.63px;
+  height: 32px;
+/*  background-image: url("../../assets/iamges/GamzieLogo.PNG");*/
+background-image: url(("../../assets/Photo/GamzieLogo.PNG");/*
+background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/GamzieLogo.PNG");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+table{
+
+  border: none;
+  box-shadow: 1px #1F1F32;
+}
+tr{
+  border: none;
+  box-shadow: 1px #1F1F32;
+
+}
+ td{
+   border: none;
+   box-shadow: 1px 1px 1px 1px #1F1F32;
+
+ }
+
+td span {
+font-size:18px;  color:#FFFFFF; font-weight:Light; font-family:IBM Plex Sans
+}
+
+#coupon1
+{
+  background-repeat: no-repeat;
+  background-size: contain;
+background-image: url("../../assets/Photo/coupon.PNG");/*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/coupon.PNG");*/
+
+border:0.5px solid #D7F775 ;
+border-radius:50px;
+width: 80px;
+height: 80px;
+z-index: 2
+
+}
+
+
+#coupon2
+{
+ background-repeat: no-repeat;
+ background-size: cover;
+background-image: url("../../assets/Photo/game.PNG");/*
+ background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/game.PNG"); */
+
+ border:0.5px solid #D7F775 ;
+  border-radius:50px;
+ width: 80px;
+ height: 80px;
+}
+
+#coupon3
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("../../assets/Photo/Layer.PNG");/*
+background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Layer.PNG"); */
+border:0.5px solid #D7F775 ;
+ border-radius:50px;
+width: 80px;
+height: 80px;
+}
+
+
+/* column two */
+#Ellipse97{
+  z-index: 1;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("../../assets/Photo/Ellipse97.PNG");/*
+background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Ellipse97.PNG");
+*/
+width: 447px;
+height: 447px;
+border-radius: 50%
+}
+
+.card-body #aboutus{
+  position: absolute;
+top:55px;
+left:20px;
+  width: 648.99px; height: 769px;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("../../assets/Photo/about.PNG");/*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/about.PNG");*/
+z-index: 3;
+}

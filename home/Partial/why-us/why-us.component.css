@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+
+.container{
+  background-color: #1F1F32;
+  width: 1920px;
+/*max-width: 100%;*/
+max-height: 100%;
+
+padding-top: 100px;
+
+}
+
+h2{
+color: #ffffff ;font-size:48px;Font-weight:SemiBold;font-family:Alexandria
+}
+.card{
+  border: 1px solid #514FE6;
+  background-color: #1F1F32;
+border-radius: 13px;
+  height: 386px;
+  width: 16.7rem;
+}
+
+.card-title{
+color:#B6B5FF;font-size:24px; font-weight:light;line-spacing:25.25;font-family:Alexandria;
+}
+
+.card-text{
+  color:#BFBFBF;font-size:20px;font-weight:light;line-spacing:25.25;font-family:IBM Plex Sans;
+}
+.card:hover {
+  border: 1px solid #CBE673;
+
+}
+
+.card:hover .card-title {
+  color: #CBE673;
+}
+.card:hover  .card-text{
+  color: #CBE673;
+}
+
+
+
+
+/************ iamges*************** */
+
+#online-shop{
+width:95.68px;
+height: 92px;
+opacity: 0.85;
+background-size:  cover;
+  background-image: url("../../assets/Photo/online-shop.JPG"); /*
+background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/online-shop.JPG");
+*/
+padding: 25px 3px 3px 20px;
+left: 28%;
+position: absolute;
+background-repeat: no-repeat;
+border: none
+
+}
+
+
+#best-seller{
+padding: 10px 8px 8px 20px;
+width:95.68px;
+height: 92px;
+opacity: 0.85;
+background-size:  cover;
+  left: 28%;
+  position: absolute;
+  background-repeat: no-repeat;
+    background-image: url("../../assets/Photo/best-seller.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/best-seller.PNG");
+  */
+}
+
+
+
+#Payment{
+  padding: 25px 3px 3px 20px;
+    width: 92.1px;
+    height: 92px;
+    opacity: 0.85;
+    background: cover;
+    left: 28%;
+    position: absolute;
+    background-repeat: no-repeat;
+      background-image: url("../../assets/Photo/payment.PNG"); /*
+    background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/payment.PNG");
+    */
+
+}
+
+
+#support{
+  padding: 25px 3px 3px 20px;
+    width: 92.1px;
+    height: 92px;
+filter:opacity(.8);
+    background: cover;
+    left: 28%;
+    position: absolute;
+    background-repeat: no-repeat;
+          background-image: url("../../assets/Photo/support.PNG"); /*
+    background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/support.PNG");*/
+
+}

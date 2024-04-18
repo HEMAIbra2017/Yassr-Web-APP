@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+
+
+.container{
+  background-color: #1F1F32;
+/*width: 1920px; */
+max-width:100%;
+max-height: 100%;
+padding-top: 20px;
+
+}
+.card{
+/*position: relative; */
+width: 1200px;
+  height: 452px;
+  background-color:#1F1F32;
+  border: 1px solid #1F1F32;
+  box-shadow: 1px 1px 1px 1px #1F1F32;
+}
+
+.card-body{
+background-color:#141425;
+}
+
+/* ****** img ********* */
+#MaskGroup2{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+z-index: 2;
+width: 500.06px;
+height: 359.29px;
+
+}
+
+input{
+  border: 1px solid #D7F775;
+  border-radius: 15px;
+  width: 520px;
+  height: 73px;
+  color: #C4C4C7;
+  background-color: #141425;
+}
+input::placeholder{
+  font-size: 18px;
+  font-weight: Light;
+  font-family: IBM Plex Sans;
+}
+
+
+button{
+  width: 270px;
+  height: 65px;
+  background-color: #514FE6;
+  border-radius: 17px;
+  border: 1px solid #514FE6;
+font-size: 18px;
+font-weight: SemiBold;
+font-family: IBM Plex Sans;
+color: #FFFFFF;
+}

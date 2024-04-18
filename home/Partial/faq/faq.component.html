@@ -1,0 +1,114 @@
+<div class="container" id="faqpart">
+<!-- class="text-start" -->
+
+
+<div class="row">
+
+
+  <div class=" col-lg-6 col-md-6 col-sm-12 mb-2 mb-sm-0" >
+    <div class="card" >
+      <div class="card-body" >
+
+        <h1 >{{'FAQ'|translate}} </h1>
+        <br><br><br><br>
+
+        <ul class="list-group d-inline ">
+<!-- aria-current="true" -->
+          <li class=" active d-inline p-2 " ><a href="#" id="link" >{{'AllQuestions'|translate}}</a></li>
+          <li class=" d-inline  p-2 "><a href="#"  id="link">{{'Problem'|translate}}</a></li>
+          <li class="  d-inline  p-2 "><a href="#"  id="link">{{'Purchase'|translate}}</a></li>
+          <li class=" d-inline  p-2"><a href="#"  id="link">{{'Services'|translate}}</a></li>
+          <li class="  d-inline  p-2"><a href="#"  id="link">{{'Payment'|translate}}</a></li>
+        </ul>
+
+                <br><br><br>
+
+<!--
+      <p class="d-inlinep-1 " id="link">All Questions </p>
+        <p class="d-inline p-1 " id="link">Problem</p>
+      <p class="d-inline p-1 " id="link">Purchase</p>
+      <p class="d-inline p-1" id="link">Services</p>
+    <p class="d-inline p-1" id="link">Payment</p>
+-->
+
+
+
+        <p class="accordion" (click)="toggelMe()">{{'TheQuestionTitlewillBeHere'|translate}}</p>
+        <div class="panel" *ngIf="showMe" style="color:#ffffff; font-size:18px">
+{{'Thistextisanexamplethatcanbereplaced'|translate}}
+    </div>
+
+        <p class="accordion">{{'TheQuestionTitlewillBeHere'|translate}}</p>
+        <div class="panel">
+    {{'Thistextisanexamplethatcanbereplaced'|translate}}
+  </div>
+
+        <p class="accordion">{{'TheQuestionTitlewillBeHere'|translate}}</p>
+        <div class="panel">
+{{'Thistextisanexamplethatcanbereplaced'|translate}}
+        </div>
+
+        <p class="accordion">{{'TheQuestionTitlewillBeHere'|translate}}</p>
+        <div class="panel">
+{{'Thistextisanexamplethatcanbereplaced'|translate}}
+        </div>
+
+        <p class="accordion">{{'TheQuestionTitlewillBeHere'|translate}}</p>
+        <div class="panel">
+{{'Thistextisanexamplethatcanbereplaced'|translate}}
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class=" col-lg-6 col-md-6 col-sm-12 mb-2 mb-sm-0" >
+  <div class="card"  >
+  <div class="card-body"  >
+<span>
+      <img src="..." class="  d-block" id="faq"   alt="FAQ">
+</span>
+  </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ************************************************************ -->
+
+<!-- links disaply in-line flex -->
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+        var setClasses = !this.classList.contains('active');
+        setClass(acc, 'active', 'remove');
+        setClass(panel, 'show', 'remove');
+
+        if (setClasses) {
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+}
+
+function setClass(els, className, fnName) {
+    for (var i = 0; i < els.length; i++) {
+        els[i].classList[fnName](className);
+    }
+}
+
+});
+</script>

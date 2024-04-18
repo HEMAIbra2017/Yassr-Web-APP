@@ -1,0 +1,571 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;600&display=swap');
+
+.container{
+  background-color: #1F1F32;
+ max-width: 100%;
+ max-height: 100%;
+ padding-top: 200px;
+
+}
+.row{
+  padding-top: 20px;
+  max-width: 100%;
+max-height: 100%;
+
+}
+
+.featured-work{padding: 100px 0}
+
+.featured-work h2 {
+  font-size: 50px;
+font-weight: bold;
+margin-bottom: 20px; }
+
+.featured-work p{
+	line-height: 1.6;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto 15px;
+	color: #6a6a6a;
+
+}
+
+.featured-work ul{margin-top: 40px; margin-bottom: 50px}
+
+.featured-work ul li{
+   -webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin-left: 10px; cursor: pointer;
+	color:  #d9d9d9;
+  border: 1px solid #414057;
+  border-radius: 15px;
+  padding: 10px 20px;
+	 }
+
+.featured-work ul li.active{
+ color:  #CBE673;
+
+ border: 1px solid #CBE673;
+
+}
+/*
+ .featured-work ul li:hover{
+  color:  #ffffcc;
+  background-color:  rgba(255, 255, 204,0.4);
+  border: 2px solid #ffffcc;
+
+}
+*/
+/* images */
+/*
+.featured-work .shuffle-images{
+
+	margin-top: 50px;
+
+}
+
+.featured-work  .shuffle-imgs .row{margin:0;}
+
+.featured-work .shuffle-imgs .row.col-md{padding: 0}
+
+*/
+/*
+.featured-work .shuffle-imgs .col-md img{
+   width: 100%; height: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border: 1px solid #1F1F32;
+   border-radius: 15px;
+
+}
+
+*/
+/****************/
+
+
+.card{
+  border-radius: 32px;
+/*border: 1px solid #707070; */
+opacity: 0.7;
+width: 16.05rem;
+height: 360px;
+
+}
+
+
+.overlay{
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+    left: 0;
+
+}
+.content{
+  position: absolute;
+  top: 83%;
+margin-left:59%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+#overlaytxt{
+font-family:IBM Plex Sans;
+font-size:28px;
+font-weight:Medium;
+color:#FFFFFF;
+width:280px;
+float: left;
+left: 0;
+
+
+}
+
+/* *****  card ******* */
+
+#valorant2{
+    background-image: url("../../assets/Photo/valorant2.PNG"); /*
+      background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/valorant2.PNG");*/
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+
+width: 100%;
+    height: 100%;
+    border-radius: 32px;
+
+
+
+}
+
+#valorantIcon2{
+  background-image: url("../../assets/Photo/valorantIcon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/valorantIcon2.PNG");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+
+
+}
+
+
+#pubg2{
+    background-image: url("../../assets/Photo/pubg2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/pubg2.PNG"); */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#pubgIcon2{
+      background-image: url("../../assets/Photo/pubgIcon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/pubgIcon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+#freefire2{
+  background-image: url("../../assets/Photo/freefire2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/freefire2.PNG"); */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#freefireIcon2{
+    background-image: url("../../assets/Photo/freefireIcon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/freefireIcon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+#roblox2{
+    background-image: url("../../assets/Photo/roblox2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/roblox2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#robloxicon2{
+      background-image: url("../../assets/Photo/robloxicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/robloxicon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+#Steam2{
+    background-image: url("../../assets/Photo/Steam2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Steam2.PNG"); */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Steamicon2{
+      background-image: url("../../assets/Photo/Steamicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Steamicon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+#playstation2{
+  background-image: url("../../assets/Photo/playstation2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/playstation2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#playstationicon2{
+    background-image: url("../../assets/Photo/playstationicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/playstationicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+
+#PlayStationPlus2{
+    background-image: url("../../assets/Photo/PlayStationPlus2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/PlayStationPlus2.PNG");
+
+*/background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#PlayStationPlusicon2{
+  background-image: url("../../assets/Photo/PlayStationPlusicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/PlayStationPlusicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+#Xbox2{
+    background-image: url("../../assets/Photo/Xbox2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Xbox2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Xboxicon2{
+      background-image: url("../../assets/Photo/Xboxicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Xboxicon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+#Shein2{
+    background-image: url("../../assets/Photo/Shein2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Shein2.JPG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Sheinicon2{
+    background-image: url("../../assets/Photo/Sheinicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Sheinicon2.JPG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+#Amazon2{
+    background-image: url("../../assets/Photo/Amazon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Amazon2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Amazonicon2{
+    background-image: url("../../assets/Photo/Amazonicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Amazonicon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+
+#Apex2{
+  background-image: url("../../assets/Photo/Apex2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Apex2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Apexicon2{
+    background-image: url("../../assets/Photo/Apexicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Apexicon2.PNG");
+  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+#Googleplay2{
+    background-image: url("../../assets/Photo/Googleplay2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Googleplay2.PNG");
+  */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Googleplayicon2{
+      background-image: url("../../assets/Photo/Googleplayicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Googleplayicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+
+#Huwaistore2{
+        background-image: url("../../assets/Photo/Huwaistore2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Huwaistore2.PNG");*/
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#Huwaistoreicon2{
+          background-image: url("../../assets/Photo/Huwaistoreicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/Huwaistoreicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+#MobileLegends2{
+  background-image: url("../../assets/Photo/MobileLegends2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/MobileLegends2.PNG");
+*/background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#MobileLegendsicon2{
+    background-image: url("../../assets/Photo/MobileLegendsicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/MobileLegendsicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+  border-radius: 50%;
+}
+
+
+
+
+
+#PUBGNewState2{
+    background-image: url("../../assets/Photo/PUBGNewState2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/PUBGNewState2.PNG");
+*/background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#PUBGNewStateicon2{
+    background-image: url("../../assets/Photo/PUBGNewStateicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/PUBGNewStateicon2.PNG");
+  */background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+    border-radius: 50%;
+}
+
+
+
+
+#NINTENDO2{
+    background-image: url("../../assets/Photo/NINTENDO2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/NINTENDO2.PNG");*/
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#NINTENDOicon2{
+      background-image: url("../../assets/Photo/NINTENDOicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/NINTENDOicon2.PNG");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+    border-radius: 50%;
+}
+
+
+
+
+#ITunes2{
+      background-image: url("../../assets/Photo/ITunes2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/ITunes2.PNG"); */
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+
+width: 100%;
+height: 100%;
+border-radius: 32px;
+
+}
+
+#ITunesicon2{
+        background-image: url("../../assets/Photo/ITunesicon2.PNG"); /*
+  background-image: url("E:\2\Freelancing work\4- moatez\src\last src\AngularClient20230409\src\assets\iamges/ITunesicon2.PNG");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 68px;
+  height:  68px;
+    border-radius: 50%;
+}
